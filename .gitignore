@@ -1,0 +1,41 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# ── Virtual Environment ───────────────────────────────────────────────────────
+pvr_env/
+venv/
+env/
+.venv/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# ── Large Data Files (NOT needed for inference) ───────────────────────────────
+data/raw/
+data/processed/
+data/splits.json
+
+# ── Large tensor files (training only) ───────────────────────────────────────
+data/tensors/X_features.npy
+
+# ── Training feature arrays (not needed at inference) ─────────────────────────
+data/classical_ml/features_train.npy
+data/classical_ml/features_val.npy
+data/classical_ml/features_test.npy
+data/classical_ml/y_train.npy
+data/classical_ml/y_val.npy
+data/classical_ml/y_test.npy
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Streamlit local secrets ───────────────────────────────────────────────────
+.streamlit/secrets.toml
