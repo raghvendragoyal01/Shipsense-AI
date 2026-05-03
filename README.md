@@ -97,10 +97,8 @@ PVR LAB P/
 
 ## 🌐 Deployment & Dataset Uploads
 
-Please refer to the `deployment_guide.md` file for step-by-step instructions on deploying the application to **Streamlit Cloud** via **GitHub**.
-
 **Important Note on Datasets:** 
-Due to size limits on GitHub and Streamlit Cloud, the raw dataset folders (`data/raw/` and `data/processed/`) are typically excluded via `.gitignore`. The application only requires the trained models and pre-computed features for inference. If you wish to upload or share the entire multi-gigabyte datasets, refer to the "Handling Large Dataset Folders" section in the `deployment_guide.md`.
+Due to size limits on GitHub and Streamlit Cloud, the raw dataset folders (`data/raw/` and `data/processed/`) are typically excluded via `.gitignore`. The application only requires the trained models and pre-computed features for inference. If you want the datasets please email us at raghvendragoyal@gmail.com.
 
 ---
 
