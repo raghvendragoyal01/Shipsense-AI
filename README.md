@@ -1,6 +1,7 @@
 # 🚢 ShipSense AI
 
-![ShipSense AI Banner](assets/Cargoship.jpg) *(Replace with an actual banner if available)*
+![ShipSense AI Banner](assets/Cargoship.jpg)
+
 
 **ShipSense AI** is a comprehensive, end-to-end machine learning system designed to classify underwater vessels using passive sonar acoustic signals (WAV audio files). The system bridges the gap between digital signal processing and artificial intelligence to identify marine vehicles based on the sound signatures they produce underwater.
 
