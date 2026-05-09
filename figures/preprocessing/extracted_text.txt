@@ -1,0 +1,68 @@
+Cell 0 stdout:
+Starting Resampling & Normalization...
+
+
+---
+
+Cell 2 stdout:
+Requirement already satisfied: resampy in c:\users\raghvendra goyal\onedrive\creative cloud files\desktop\pvr lab p\pvr_env\lib\site-packages (0.4.3)
+Requirement already satisfied: soxr in c:\users\raghvendra goyal\onedrive\creative cloud files\desktop\pvr lab p\pvr_env\lib\site-packages (1.0.0)
+Requirement already satisfied: numpy>=1.17 in c:\users\raghvendra goyal\onedrive\creative cloud files\desktop\pvr lab p\pvr_env\lib\site-packages (from resampy) (2.4.4)
+Requirement already satisfied: numba>=0.53 in c:\users\raghvendra goyal\onedrive\creative cloud files\desktop\pvr lab p\pvr_env\lib\site-packages (from resampy) (0.65.0)
+Requirement already satisfied: llvmlite<0.48,>=0.47.0dev0 in c:\users\raghvendra goyal\onedrive\creative cloud files\desktop\pvr lab p\pvr_env\lib\site-packages (from numba>=0.53->resampy) (0.47.0)
+
+
+---
+
+Cell 2 stdout:
+
+[notice] A new release of pip is available: 24.0 -> 26.0.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+
+---
+
+Cell 3 stdout:
+ Cell 1 Complete: All audio files processed and saved successfully!
+
+
+---
+
+Cell 4 stdout:
+Generating Before/After Spectrograms...
+
+
+---
+
+Cell 4 text/plain:
+<Figure size 1500x2000 with 20 Axes>
+
+---
+
+Cell 4 stdout:
+Spectrograms drawn successfully!
+
+
+---
+
+Cell 5 stdout:
+Splitting data at RECORDING LEVEL (70/15/15)
+Data split done Train files: 98, Val files: 21, Test files: 21
+
+
+---
+
+Cell 6 stdout:
+Segmenting audio into 3s chunks & saving splits.json
+
+ PART 3 COMPLETELY DONE
+ Discarded silent segments per class: {'CargoShip': 0, 'KaiYuan': 0, 'noise': 0, 'SpeedBoat': 0, 'Uuv': 0}
+
+ Final Segment Count Table (Class vs Split):
+split        test  train  val
+class_label                  
+CargoShip     597   2786  597
+KaiYuan         5     21    4
+SpeedBoat       4     21    5
+Uuv             5     21    4
+noise           4     21    5

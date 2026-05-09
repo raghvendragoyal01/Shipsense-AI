@@ -1,11 +1,15 @@
-streamlit
 numpy
 pandas
-pillow
 librosa
-soundfile
-scikit-learn
-joblib
---extra-index-url https://download.pytorch.org/whl/cpu
 torch
+torchaudio
 torchvision
+scikit-learn
+matplotlib
+seaborn
+joblib
+streamlit
+soundfile
+opencv-python
+ipywidgets
+scipy

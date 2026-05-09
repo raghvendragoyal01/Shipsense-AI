@@ -1,0 +1,192 @@
+Cell 0 stdout:
+Starting Fast-Scan...(Strictly pulling Max 30 files per class) so that i can do as fast as i can.
+ Loaded: CargoShip -> DATA0145.WAV (1/30)
+ Loaded: CargoShip -> DATA0146.WAV (2/30)
+ Loaded: CargoShip -> DATA0147.WAV (3/30)
+ Loaded: CargoShip -> DATA0148.WAV (4/30)
+ Loaded: CargoShip -> DATA0149.WAV (5/30)
+ Loaded: CargoShip -> DATA0150.WAV (6/30)
+ Loaded: CargoShip -> DATA0151.WAV (7/30)
+ Loaded: CargoShip -> DATA0152.WAV (8/30)
+ Loaded: CargoShip -> DATA0153.WAV (9/30)
+ Loaded: CargoShip -> DATA0154.WAV (10/30)
+ Loaded: CargoShip -> DATA0155.WAV (11/30)
+ Loaded: CargoShip -> DATA0156.WAV (12/30)
+ Loaded: CargoShip -> DATA0157.WAV (13/30)
+ Loaded: CargoShip -> DATA0158.WAV (14/30)
+ Loaded: CargoShip -> DATA0159.WAV (15/30)
+ Loaded: CargoShip -> DATA0160.WAV (16/30)
+ Loaded: CargoShip -> DATA0161.WAV (17/30)
+ Loaded: CargoShip -> DATA0162.WAV (18/30)
+ Loaded: CargoShip -> DATA0163.WAV (19/30)
+ Loaded: CargoShip -> DATA0164.WAV (20/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__1.wav (1/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__10.wav (2/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__11.wav (3/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__12.wav (4/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__13.wav (5/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__14.wav (6/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__15.wav (7/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__16.wav (8/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__17.wav (9/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__18.wav (10/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__19.wav (11/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__2.wav (12/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__20.wav (13/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__21.wav (14/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__22.wav (15/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__23.wav (16/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__24.wav (17/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__25.wav (18/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__26.wav (19/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__27.wav (20/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__28.wav (21/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__29.wav (22/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__3.wav (23/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__30.wav (24/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__31.wav (25/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__32.wav (26/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__33.wav (27/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__34.wav (28/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__35.wav (29/30)
+ Loaded: KaiYuan -> 20220626105737_M_SpeedBoat_F_W&KaiYuan_M_M_0_label__1__36.wav (30/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__13.wav (1/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__14.wav (2/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__15.wav (3/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__16.wav (4/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__17.wav (5/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__18.wav (6/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__19.wav (7/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__20.wav (8/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__21.wav (9/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__22.wav (10/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__23.wav (11/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__24.wav (12/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__25.wav (13/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__26.wav (14/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__27.wav (15/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__28.wav (16/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__31.wav (17/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__32.wav (18/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__33.wav (19/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__34.wav (20/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__4.wav (21/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__5.wav (22/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__6.wav (23/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__7.wav (24/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__8.wav (25/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_F_W&SpeedBoat_F_W_1_label__1__9.wav (26/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_M_M&SpeedBoat_M_M_0_label__1__1.wav (27/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_M_M&SpeedBoat_M_M_0_label__1__10.wav (28/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_M_M&SpeedBoat_M_M_0_label__1__11.wav (29/30)
+ Loaded: noise -> 20220626112743_M_GreenCity_M_M&SpeedBoat_M_M_0_label__1__12.wav (30/30)
+ Loaded: SpeedBoat -> 20220625124843_S_SpeedBoat_N_S_1_label__0__62.wav (1/30)
+ Loaded: SpeedBoat -> 20220625124843_S_SpeedBoat_N_S_1_label__0__63.wav (2/30)
+ Loaded: SpeedBoat -> 20220625124843_S_SpeedBoat_N_S_1_label__0__64.wav (3/30)
+ Loaded: SpeedBoat -> 20220625124843_S_SpeedBoat_N_S_1_label__0__66.wav (4/30)
+ Loaded: SpeedBoat -> 20220625124843_S_SpeedBoat_N_S_1_label__0__67.wav (5/30)
+ Loaded: SpeedBoat -> 20220625124843_S_SpeedBoat_N_S_1_label__0__68.wav (6/30)
+ Loaded: SpeedBoat -> 20220625124843_S_SpeedBoat_N_S_1_label__0__69.wav (7/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__32.wav (8/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__33.wav (9/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__34.wav (10/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__36.wav (11/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__37.wav (12/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__38.wav (13/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__39.wav (14/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__4.wav (15/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__40.wav (16/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__41.wav (17/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__42.wav (18/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__43.wav (19/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__44.wav (20/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__45.wav (21/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__46.wav (22/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__47.wav (23/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__48.wav (24/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__49.wav (25/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__5.wav (26/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__50.wav (27/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__51.wav (28/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__52.wav (29/30)
+ Loaded: SpeedBoat -> 20220626105235_M_SpeedBoat_M_M&SpeedBoat_M_M&SpeedBoat_M_M_0_label__1__53.wav (30/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__1.wav (1/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__10.wav (2/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__100.wav (3/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__11.wav (4/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__12.wav (5/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__13.wav (6/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__14.wav (7/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__15.wav (8/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__16.wav (9/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__17.wav (10/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__18.wav (11/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__19.wav (12/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__2.wav (13/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__20.wav (14/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__21.wav (15/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__22.wav (16/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__23.wav (17/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__24.wav (18/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__25.wav (19/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__26.wav (20/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__27.wav (21/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__28.wav (22/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__29.wav (23/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__3.wav (24/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__30.wav (25/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__31.wav (26/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__32.wav (27/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__33.wav (28/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__34.wav (29/30)
+ Loaded: Uuv -> 20220624162953_M_UUV_M_M&MotorBoat_M_M&ArtificialSignals_0_label__1__35.wav (30/30)
+
+==================================================
+ BOOM! Manifest Complete! Total files saved: 140
+==================================================
+class_label
+KaiYuan      30
+noise        30
+SpeedBoat    30
+Uuv          30
+CargoShip    20
+Name: count, dtype: int64
+
+
+---
+
+Cell 3 stdout:
+Starting Exploratory Data Analysis (EDA)
+
+
+---
+
+Cell 3 text/plain:
+<Figure size 1500x500 with 2 Axes>
+
+---
+
+Cell 4 stdout:
+Waveforms & Spectrograms (2 per class)...
+
+
+---
+
+Cell 4 text/plain:
+<Figure size 1500x2000 with 30 Axes>
+
+---
+
+Cell 5 stdout:
+Calculating Average PSD for all classes (Welch's Method)...
+
+
+---
+
+Cell 5 text/plain:
+<Figure size 1200x600 with 1 Axes>
+
+---
+
+Cell 5 stdout:
+Part 2 completed

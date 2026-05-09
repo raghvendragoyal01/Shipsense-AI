@@ -1,0 +1,6 @@
+Class,train_count,val_count,test_count,total_count
+CargoShip,2786,597,597,3980
+KaiYuan,21,4,5,30
+SpeedBoat,21,5,4,30
+Uuv,21,4,5,30
+noise,21,5,4,30

@@ -1,41 +1,58 @@
-# ── Python ────────────────────────────────────────────────────────────────────
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
 .Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
+.installed.cfg
+*.egg
 
-# ── Virtual Environment ───────────────────────────────────────────────────────
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual Environment
 pvr_env/
 venv/
-env/
-.venv/
+.env/
 
-# ── Jupyter ───────────────────────────────────────────────────────────────────
-.ipynb_checkpoints/
-notebooks/.ipynb_checkpoints/
-
-# ── Large Data Files (NOT needed for inference) ───────────────────────────────
+# Data (Large Files)
 data/raw/
 data/processed/
-data/splits.json
+data/tensors/
+scripts/
+*.wav
+*.mp3
+*.flac
+*.npy
+*.zip
 
-# ── Large tensor files (training only) ───────────────────────────────────────
-data/tensors/X_features.npy
-
-# ── Training feature arrays (not needed at inference) ─────────────────────────
-data/classical_ml/features_train.npy
-data/classical_ml/features_val.npy
-data/classical_ml/features_test.npy
-data/classical_ml/y_train.npy
-data/classical_ml/y_val.npy
-data/classical_ml/y_test.npy
-
-# ── OS files ──────────────────────────────────────────────────────────────────
+# OS
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# ── Streamlit local secrets ───────────────────────────────────────────────────
-.streamlit/secrets.toml
+# Project Specific
+latex_error.log
+*.aux
+*.log
+*.toc
+*.bbl
+*.blg
+*.out
+*.fdb_latexmk
+*.fls
+*.synctex.gz

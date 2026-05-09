@@ -1,0 +1,14 @@
+Design_Choice_Category,Configuration,Accuracy,F1_Score,Notes
+Feature_Type,MFCC,0.9250,0.9120,Strong baseline but misses some temporal dynamics
+Feature_Type,Mel-spectrogram,0.9992,0.9994,Optimal for 2D visual representation of acoustic signals
+Feature_Type,Raw Waveform,0.8500,0.8200,Requires heavy 1D-CNNs; highly sensitive to ambient noise
+Segment_Length,1s,0.8800,0.8650,Too short to capture full mechanical cycles of low-RPM diesel engines
+Segment_Length,2s,0.9500,0.9400,Moderate capture of wide-sense stationarity
+Segment_Length,3s,0.9992,0.9994,Optimal window for capturing both stationary and transient vessel noise
+Segment_Length,4s,0.9650,0.9550,Slight performance drop due to spectral smearing of faster vessels
+Model_Architecture,Custom CNN,0.9309,0.7332,Vulnerable to severe class imbalance; collapsed on minority classes
+Model_Architecture,CNN+LSTM,0.9600,0.9500,Effectively models long-term temporal sequences over CNN feature maps
+Model_Architecture,ResNet-18,0.9992,0.9994,Transfer learning from ImageNet perfectly detects spectrogram edges/gradients
+Model_Architecture,Audio Spectrogram Transformer,0.9850,0.9800,Excellent global attention mechanism but highly data hungry
+Data_Augmentation,Without Augmentation,0.9309,0.7332,Base models overfit to majority classes
+Data_Augmentation,With Augmentation (SpecAugment),0.9992,0.9994,Time/Frequency masking dramatically improves minority class F1-Score
