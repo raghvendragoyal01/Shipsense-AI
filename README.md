@@ -23,7 +23,7 @@
 ## 🚢 Dataset & Requirements
 The project is built on the **ShipsEar dataset** (Santos-Domínguez et al., 2016).
 - **Classes**: CargoShip, KaiYuan, SpeedBoat, UUV, Ambient Noise.
-- **Dataset Link**: [DRIVE_LINK_HERE] (Includes Raw and Processed segments).
+- **Dataset Link**: [https://drive.google.com/drive/folders/1VdZ8hM73nSspwTS1l3xvTjlZLvSuju5s?usp=sharing] (Includes Raw and Processed segments).
 - **Environment**: CUDA-enabled GPU recommended for training.
 
 ---
