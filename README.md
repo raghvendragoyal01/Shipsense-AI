@@ -47,7 +47,6 @@ The project is built on the **ShipsEar dataset** (Santos-Domínguez et al., 2016
 ├── Reports/                   # High-fidelity Research Documentation (PDF & MD)
 │   ├── PVR_Final_IEEE_Paper.pdf # Formal Academic Report
 │   └── PVR_R1-R6.pdf          # Module-specific technical discussions
-├── 07_ieee_report.tex         # LaTeX source for the research paper
 ├── app.py                     # Streamlit Deployment Interface
 ├── requirements.txt           # Dependency Manifest
 └── SUBMISSION.md              # Project Submission Requirement Map
