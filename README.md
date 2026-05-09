@@ -1,78 +1,99 @@
-# ShipSense AI: Underwater Vessel Noise Classification
+# 🌊 ShipSense AI: Deep Underwater Vessel Classification
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-ff4b4b.svg)](https://streamlit.io/)
 
 ![ShipSense AI Banner](assets/Cargoship.jpg)
 
-ShipSense AI is a deep learning-based classification system designed to identify underwater vessel noise signatures using the ShipsEar dataset. It leverages Mel-spectrograms and Residual Networks (ResNet-18) to achieve high-precision classification across five categories: CargoShip, KaiYuan, SpeedBoat, UUV, and Ambient Noise.
+**ShipSense AI** is a state-of-the-art acoustic classification system designed to identify maritime vessel signatures from underwater hydrophone recordings. By transforming 1D acoustic signals into 2D Mel-spectrograms, the system leverages **Deep Residual Networks (ResNet-18)** and ensemble machine learning to achieve high-precision classification across 5 distinct maritime classes.
 
-## 🚢 Dataset
-The project utilizes the **ShipsEar dataset** (Santos-Domínguez et al., 2016). Due to large file sizes, the raw and processed audio data are hosted externally.
-- **Raw/Processed Data**: [DRIVE_LINK_HERE]
+---
+
+## 🚀 Key Features
+- **Hybrid Modeling**: Comprehensive benchmarking between Deep Learning (ResNet-18, Custom CNN) and Classical ML (SVM, RF, KNN).
+- **Acoustic Engineering**: Advanced preprocessing pipeline using `librosa` for Mel-spectrogram and MFCC extraction.
+- **Robust Evaluation**: Full-spectrum metrics including Ablation studies, ROC curves, and detailed Error Analysis.
+- **Interactive UI**: Real-time vessel inference application built with Streamlit.
+- **Academic Standard**: IEEE-formatted research report and LaTeX source included.
+
+---
+
+## 🚢 Dataset & Requirements
+The project is built on the **ShipsEar dataset** (Santos-Domínguez et al., 2016).
 - **Classes**: CargoShip, KaiYuan, SpeedBoat, UUV, Ambient Noise.
+- **Dataset Link**: [DRIVE_LINK_HERE] (Includes Raw and Processed segments).
+- **Environment**: CUDA-enabled GPU recommended for training.
+
+---
 
 ## 📂 Repository Structure
 ```text
 .
 ├── data/
-│   ├── classical_ml/          # Pre-trained KNN, SVM, RF models
-│   ├── models/                # Saved ResNet-18 and Custom CNN weights
-│   ├── splits.json            # Train/Val/Test split metadata
-│   └── dataset_manifest.csv   # Global metadata for all audio files
-├── figures/                   # Generated EDA, Preprocessing, and Result plots
-├── notebooks/
-│   ├── EDA.ipynb              # Exploratory Data Analysis
-│   ├── Preprocessing.ipynb    # Audio standardization and segmentation
-│   └── Final_Evaluation.ipynb # Model benchmarking and metrics
-├── Reports/                   # PDF Research Reports (R1-R6) and IEEE Paper
-├── 01_project_overview.md     # Technical project overview
-├── 02_integrity_report.md     # Data quality and health report
-├── 03_eda_discussion.md       # EDA insights and discussion
-├── 04_segmentation_report.md  # Segmentation logic and imbalance analysis
-├── 05_results_analysis.md     # Model performance and leakage analysis
-├── 06_error_analysis.md       # Confusion patterns and literature review
-├── 07_ieee_report.tex         # LaTeX source for the final research paper
-├── app.py                     # Streamlit web application
-├── requirements.txt           # Python dependencies
-└── SUBMISSION.md              # Requirement mapping for project submission
+│   ├── classical_ml/          # Serialized KNN, SVM, RF, and Scaler models
+│   ├── models/                # Saved ResNet-18 and Custom CNN weights (.pth)
+│   ├── splits.json            # Train/Val/Test metadata mapping
+│   └── tensors/               # Pre-computed feature tensors for fast loading
+├── figures/                   # Multi-stage visualizations (EDA, Preprocessing, Results)
+├── notebooks/                 # End-to-end experimental pipeline
+│   ├── EDA.ipynb              # Exploratory Data Analysis & Visualizations
+│   ├── Preprocessing.ipynb    # Signal cleaning & Segmentation logic
+│   ├── FeatureExtraction.ipynb # Mel-spectrogram & MFCC generation
+│   ├── Classical_ML.ipynb     # Scikit-learn model benchmarking
+│   ├── Deep_Learning_CNN.ipynb # Neural network training & optimization
+│   └── Final_Evaluation.ipynb # Master metrics & performance analysis
+├── Reports/                   # High-fidelity Research Documentation (PDF & MD)
+│   ├── PVR_Final_IEEE_Paper.pdf # Formal Academic Report
+│   └── PVR_R1-R6.pdf          # Module-specific technical discussions
+├── 07_ieee_report.tex         # LaTeX source for the research paper
+├── app.py                     # Streamlit Deployment Interface
+├── requirements.txt           # Dependency Manifest
+└── SUBMISSION.md              # Project Submission Requirement Map
 ```
 
-## ⚙️ Installation
-1. Clone the repository:
+---
+
+## 🛠️ Installation & Setup
+
+1. **Clone & Navigate**:
    ```bash
-   git clone https://github.com/your-username/ShipSense-AI.git
-   cd ShipSense-AI
+   git clone https://github.com/raghvendragoyal01/Shipsense-AI.git
+   cd Shipsense-AI
    ```
-2. Create and activate a virtual environment:
+
+2. **Environment Configuration**:
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-3. Install dependencies:
-   ```bash
+   source venv/bin/activate  # Windows: venv\Scripts\activate
    pip install -r requirements.txt
    ```
 
-## 🚀 Execution Order
-To reproduce the project results, run the notebooks/scripts in the following sequence:
-1. **`Reports/PVR_R1.pdf`**: Project Overview.
-2. **`notebooks/EDA.ipynb`**: Review exploratory data analysis and class distributions.
-3. **`notebooks/Preprocessing.ipynb`**: Observe audio resampling and 3s segmentation logic.
-4. **`notebooks/Final_Evaluation.ipynb`**: Execute to train/evaluate models and generate metrics.
-5. **`app.py`**: Launch the Streamlit UI to test real-time inference:
+3. **Launch the UI**:
    ```bash
    streamlit run app.py
    ```
 
-## 📊 Results Summary
-- **Top Accuracy**: 99.92% (ResNet-18, Random Forest, SVM)
-- **Macro-F1**: 0.9994
-- **Note**: High performance is partially attributed to data leakage from overlapping segments; see `05_results_analysis.md` for a full deep dive.
+---
 
-## 📜 Citation
-If you use this work, please cite the original ShipsEar paper:
-> Santos-Domínguez, D., Torres-Guijarro, S., Cardenal-López, A., & Pena-Gimenez, A. (2016). ShipsEar: An underwater vessel noise database. Applied Acoustics.
+## 📈 Performance Summary
+The system achieves exceptional discriminative power, though careful attention must be paid to the data leakage discussed in the reports.
+
+| Model | Accuracy | Macro F1 | AUC-ROC |
+| :--- | :--- | :--- | :--- |
+| **ResNet-18** | **99.92%** | **0.9994** | **1.00** |
+| **Random Forest** | 99.92% | 0.9994 | 1.00 |
+| **Custom CNN** | 93.09% | 0.7332 | 0.92 |
+
+> [!IMPORTANT]
+> **Data Leakage Warning**: The 99%+ scores are a result of 50% segment overlap. For true acoustic generalization, refer to the "Overfitting Analysis" in `Reports/PVR_R5.pdf`.
 
 ---
 
-## 🤝 Contributors
-- Developed by **Raghvendra Goyal**
-- Powered by **Soulware** & Logic by **Mathmind 2.0**
+## 🤝 Contributors & Credits
+- **Lead Developer**: Raghvendra Goyal
+- **Algorithm Design**: Soulware & Mathmind 2.0 Logic
+- **Dataset**: Santos-Domínguez et al. (ShipsEar)
+
+---
